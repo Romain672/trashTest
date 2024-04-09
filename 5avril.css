@@ -5871,6 +5871,7 @@ textarea:active:-moz-placeholder {
 .form-control-comment {
   padding-top: 0.5rem;
   font-size: 0.875rem;
+  color: ;
 }
 
 .form-control-submit.disabled {
@@ -8068,7 +8069,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 .suppliers-sort .select-list:hover {
   color: #fff;
   text-decoration: none;
-  background: #a88c71;
+  background: #24b9d7;
 }
 
 .brands-sort .dropdown-menu,
@@ -8358,7 +8359,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 .block-categories .collapse-icons .add:hover,
 .block-categories .collapse-icons .remove:hover,
 .cart-grid-body a.label:hover {
-  color: #a88c71;
+  color: #24b9d7;
 }
 
 .block-categories .arrows .arrow-down,
@@ -8433,7 +8434,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 
 #subcategories ul li:hover .subcategory-image a {
   padding: 5px;
-  border: 5px solid #a88c71;
+  border: 5px solid #24b9d7;
 }
 
 #product #content {
@@ -8706,13 +8707,13 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 .tabs .nav-tabs .nav-link.active {
-  color: #a88c71;
+  color: #24b9d7;
 }
 
 .tabs .nav-tabs .nav-link.active,
 .tabs .nav-tabs .nav-link:hover {
   border: 0;
-  border-bottom: green 3px solid;
+  border-bottom: #24b9d7 3px solid;
 }
 
 .tabs .nav-tabs .nav-item {
@@ -9113,7 +9114,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   text-transform: uppercase;
   word-break: break-word;
   pointer-events: auto;
-  background:#a88c71;
+  background: #24b9d7;
 }
 
 .product-flags li.product-flag.online-only {
@@ -12890,11 +12891,6 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
     background-color: rgba(255,255,255,0.4);
   }
     
-
-
-
-
-
   #carousel {
     order: 200;
   }
@@ -12907,10 +12903,3 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
     order: 100;
   }
   
-
-
-
-
-  ul.dropdown-menu:nth-child(2),   ul.dropdown-menu:nth-child(3) {
-    background: #c1937b;
-    }
